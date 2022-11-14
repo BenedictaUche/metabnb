@@ -1,19 +1,27 @@
-import './App.css';
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Header from './components/Header';
-import Homepage from './pages/Homepage';
+import ErrorPage from "./components/ErrorPage";
+import Homepage from "./pages/Homepage";
+import Locations from "./pages/Location";
 
 const router = createBrowserRouter([
   {
     path: '/',
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
-        element: <Homepage />
+        element: <Homepage />,
+
+      },
+      {
+        path: '/locations',
+        element: <Locations />,
       },
     ],
   },
 ]);
+
 function App() {
   return (
     <div className="App">

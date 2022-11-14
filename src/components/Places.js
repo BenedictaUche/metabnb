@@ -3,9 +3,9 @@ import locations from '../data';
 import Place from './Place';
 
 const Places = () => {
-    const [datas] = useState(locations);
+    const [data] = useState(locations);
 
-    const displayDatas = datas.map(({id, image}) => (
+    const displayDatas = data.map(({id, image}) => (
         <Place key={id} image={image} />
     ))
     return ( 

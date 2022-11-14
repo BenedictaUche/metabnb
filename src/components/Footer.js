@@ -2,7 +2,7 @@ import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/footer-logo.png'
+import logo from '../imgs/foot_metabnb.svg';
 
 const Footer = () => {
 	return (
