@@ -44,3 +44,6 @@ button {
 #search-button {
   border-radius: 0px 8px 8x 0px;
 }
+#search-input {
+  border: 2px solid black;
+}
