@@ -31,6 +31,38 @@ const data = [
       id: 8,
       image: require('./imgs/pic12.png'),
     },
+    {
+      id: 9,
+      image: require('./imgs/pic13.png'),
+    },
+    {
+      id: 10,
+      image: require('./imgs/pic14.png'),
+    },
+    {
+      id: 11,
+      image: require('./imgs/pic15.png'),
+    },
+    {
+      id: 12,
+      image: require('./imgs/pic16.png'),
+    },
+    {
+      id: 13,
+      image: require('./imgs/pic17.png'),
+    },
+    {
+      id: 14,
+      image: require('./imgs/pic18.png'),
+    },
+    {
+      id: 15,
+      image: require('./imgs/pic19.png'),
+    },
+    {
+      id: 16,
+      image: require('./imgs/pic20.png'),
+    },
   ];
 
   export default data

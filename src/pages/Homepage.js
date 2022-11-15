@@ -12,10 +12,10 @@ import locations from '../data';
 
 const Homepage = () => {
     const [modal, setModal] = useState(false);
-    const [datas, setDatas] = useState(locations);
+    const [data, setDatas] = useState(locations);
 
     useEffect(() => {
-        const newDatas = datas.slice(0, 8)
+        const newDatas = data.slice(0, 8)
         setDatas(newDatas)
          // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -33,7 +33,7 @@ const Homepage = () => {
           <Sponsors />
           <section className='px-5 lg:px-20'>
             <h2 className='text-black px-5 text-2xl lg:text-5xl font-bold text-center mb-11'>Inspiration for your next adventure</h2>
-            <Places datas={datas}/>
+            <Places datas={data}/>
           </section>
           <section className='mt-6 lg:mt-12 bg-pink px-5 lg:px-20 py-12 lg:py-24 lg:flex justify-between items-center gap-32'>
             <div className='text-light'>

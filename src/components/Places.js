@@ -9,7 +9,7 @@ const Places = () => {
         <Place key={id} image={image} />
     ))
     return ( 
-        <div>
+        <div className='lg:grid lg:grid-cols-4 lg:gap-6'>
             {displayDatas}
         </div>
      );
