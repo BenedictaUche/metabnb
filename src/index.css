@@ -41,3 +41,6 @@ li {
 button {
   color: white;
 }
+#search-button {
+  border-radius: 0px 8px 8x 0px;
+}

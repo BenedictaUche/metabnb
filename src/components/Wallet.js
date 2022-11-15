@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import metamask from '../imgs/metatask.png';
+import metamask from '../imgs/metamask.png';
 import walletConnect from '../imgs/walletconnect.png';
 import arrow from '../imgs/arrow-right.png'
 
