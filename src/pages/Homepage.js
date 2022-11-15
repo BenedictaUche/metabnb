@@ -15,7 +15,7 @@ const Homepage = () => {
     const [datas, setDatas] = useState(locations);
 
     useEffect(() => {
-        const newDatas = datas.slice(0,8)
+        const newDatas = datas.slice(0, 8)
         setDatas(newDatas)
          // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);

@@ -1,18 +1,17 @@
-import React, {useState } from 'react';
-import locations from '../data';
+import React  from 'react';
 import Place from './Place';
 
-const Places = () => {
-    const [data] = useState(locations);
+const Places = ({datas}) => {
 
-    const displayDatas = data.map(({id, image}) => (
+    const displayDatas = datas.map(({id, image}) => (
         <Place key={id} image={image} />
     ))
-    return ( 
-        <div className='lg:grid lg:grid-cols-4 lg:gap-6'>
-            {displayDatas}
-        </div>
-     );
+
+  return (
+    <div className='lg:grid lg:grid-cols-4 lg:gap-6'>
+        {displayDatas}
+    </div>
+  )
 }
- 
-export default Places;
+
+export default Places
