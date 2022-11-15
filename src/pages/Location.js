@@ -8,7 +8,7 @@ import locations from '../data';
 
 const Locations = () => {
   const [modal, setModal] = useState(false);
-  const [datas] = useState(locations);
+  const [data] = useState(locations);
 
   const handleModal = () => {
     setModal(!modal)
@@ -20,7 +20,7 @@ const Locations = () => {
       <div className='relative top-32 lg:top-44'>
       <Filters />
       <section className='px-5 lg:px-20'>
-        <Places datas={datas}/>
+        <Places datas={data}/>
       </section>
       <Footer />
       {modal && (

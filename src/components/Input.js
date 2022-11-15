@@ -1,4 +1,5 @@
 import React from 'react'
+
 const Input = ({
     type,
     name,
@@ -6,6 +7,7 @@ const Input = ({
     placeholder,
     value,
     innerRef,
+    className,
 }) => (
     <>
         <input
@@ -15,8 +17,9 @@ const Input = ({
             placeholder={placeholder}
             value={value}
             ref={innerRef}
+            className={className}
         />
     </>
-)
+);
  
 export default Input;
