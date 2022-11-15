@@ -17,8 +17,8 @@ const Intro = () => {
             matches =>
               matches && (
                 <div className='flex justify-start items-center'>
-                  <Input type="search" placeholder="Search for location" className='rounded-tl-lg border border-pink py-4 pl-3.5 w-full text-grayy placeholder-grayy outline-0 border-r-0 block'/>
-                  <Button type="submit" className='bg-pink py-4 px-6 lg:px-20 rounded-tl-lg outline-0 text-white'>
+                  <Input type="search" placeholder="Search for location" className='rounded-r-lg border border-pink py-4 pl-3.5 w-full text-grayy placeholder-grayy outline-0 border-r-0 block'/>
+                  <Button type="submit" className='bg-pink py-4 px-6 lg:px-20 rounded-r-lg outline-0 text-white'>
                     Search
                   </Button>
                 </div>
@@ -34,7 +34,7 @@ const Intro = () => {
             matches =>
               matches && (
                 <div className='flex justify-start items-center mt-16'>
-                  <Input type="search" placeholder="Search for location" id="search-input"className='rounded-tl-lg border border-pink py-4 pl-3.5 w-full text-grayy placeholder-grayy outline-0 border-r-0 block'/>
+                  <Input type="search" placeholder="Search for location" id="search-input"className='rounded-r-lg border border-pink py-4 pl-3.5 w-full text-grayy placeholder-grayy outline-0 border-r-0 block'/>
                   <Button type="submit" className='bg-pink py-4 px-6 lg:px-20 rounded-r-lg outline-0 text-white' id="search-button">
                     Search
                   </Button>
